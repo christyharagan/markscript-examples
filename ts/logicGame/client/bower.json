@@ -1,0 +1,26 @@
+{
+  "name": "markscript-examples-ts-logic",
+  "version": "0.0.0",
+  "authors": [
+    "Christy Haragan <christy@christy.haragan@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.1.5",
+    "paper-button": "PolymerElements/paper-button#~1.0.8",
+    "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#~1.0.4",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.0.5",
+    "paper-item": "PolymerElements/paper-item#~1.0.5",
+    "paper-menu": "PolymerElements/paper-menu#~1.1.1",
+    "paper-styles": "PolymerElements/paper-styles#~1.0.11",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.0.4",
+    "socket.io-client": "~1.3.7"
+  }
+}

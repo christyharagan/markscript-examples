@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "sourceRoot": ".",
+        "target": "es5",
+        "outDir": "."
+    },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2
+    },
+    "filesGlob": [
+        "../server/api.d.ts",
+        "./index.d.ts",
+        "./src/**/*.ts",
+        "./typings/**/*.d.ts"
+    ],
+    "compileOnSave": true,
+    "files": [
+        "../server/api.d.ts",
+        "./src/elements/play.ts",
+        "./src/elements/results.ts",
+        "./typings/polymer/polymer.d.ts",
+        "./typings/socket.io-client/socket.io-client.d.ts",
+        "./typings/tsd.d.ts",
+        "./typings/webcomponents.js/webcomponents.js.d.ts"
+    ],
+    "exclude": []
+}

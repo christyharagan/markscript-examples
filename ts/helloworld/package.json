@@ -1,0 +1,24 @@
+{
+  "name": "markscript-examples-ts-helloworld",
+  "version": "0.0.0",
+  "description": "A simple hello-world TypeScript project for MarkScript",
+  "repository": "christyharagan/markscript-examples",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "keywords": [
+    "markscript",
+    "hello world"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "marklogic-typescript-definitions": "^0.4.0",
+    "markscript-basic": "^0.2.0"
+  },
+  "devDependencies": {
+    "markscript-core": "^0.6.0",
+    "markscript-basic-build": "^0.2.0"
+  }
+}

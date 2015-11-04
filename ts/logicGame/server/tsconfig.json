@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": ".",
+        "moduleResolution": "classic"
+    },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "api.d.ts",
+        "markscriptfile.ts",
+        "build/*.ts",
+        "test/*.ts",
+        "example/*.ts",
+        "node_modules/*/build.d.ts",
+        "node_modules/markscript-core/model.d.ts",
+        "node_modules/speckle/speckle.d.ts"
+    ],
+    "files": [
+        "api.d.ts",
+        "markscriptfile.ts",
+        "build/databaseModel.ts",
+        "test/test.ts",
+        "example/data.ts",
+        "node_modules/markscript-basic-build/build.d.ts",
+        "node_modules/markscript-core/build.d.ts",
+        "node_modules/markscript-koa/build.d.ts",
+        "node_modules/markscript-uservices-build/build.d.ts",
+        "node_modules/markscript-core/model.d.ts",
+        "node_modules/speckle/speckle.d.ts"
+    ],
+    "exclude": []
+}

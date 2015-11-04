@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": ".",
+        "moduleResolution": "classic"
+    },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "markscriptfile.ts",
+        "build/*.ts",
+        "api.d.ts",
+        "node_modules/*/build.d.ts"
+    ],
+    "files": [
+        "markscriptfile.ts",
+        "build/databaseModel.ts",
+        "api.d.ts",
+        "node_modules/markscript-basic-build/build.d.ts",
+        "node_modules/markscript-core/build.d.ts"
+    ],
+    "exclude": []
+}
